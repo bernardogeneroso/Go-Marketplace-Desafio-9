@@ -8,9 +8,9 @@ class Product {
 
 	@Column() name: string;
 
-	@Column() price: number;
+	@Column('decimal') price: number;
 
-	@Column() quantity: number;
+	@Column('int') quantity: number;
 
 	@OneToMany((type) => OrdersProducts, (ordersProducts) => ordersProducts.product)
 	order_products: OrdersProducts[];
