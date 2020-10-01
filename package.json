@@ -1,8 +1,8 @@
 {
 	"name": "gostack-desafio-09",
 	"version": "1.0.0",
-	"author": "Bernardo Generoso",
 	"main": "index.js",
+	"author": "Bernardo Generoso",
 	"license": "MIT",
 	"scripts": {
 		"build": "tsc",
